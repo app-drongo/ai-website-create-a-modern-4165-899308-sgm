@@ -1,0 +1,15 @@
+import Pageheader from '@/components/sections/Pageheader'
+import Productgrid from '@/components/sections/Productgrid'
+import Map from '@/components/sections/Map'
+import Features from '@/components/sections/Features'
+
+export default function PropertiesPage() {
+  return (
+    <>
+      <Pageheader />
+      <Productgrid />
+      <Map />
+      <Features />
+    </>
+  )
+}
